@@ -15,10 +15,10 @@ This repository showcases a professional, scalable, and automated sports betting
 * **Administrative Control:** A central management core to oversee system-wide operations, user balances, and live markets[cite: 1].
 
 ## 📂 Project Structure
-* `/application/controllers/`: Core business and routing logic[cite: 2].
-* `/application/models/`: Database abstraction and data validation layer[cite: 2].
-* `/core/`: The platform's engine, including database drivers and system loaders[cite: 2].
-* `/fifabet.sql`: Full relational database schema for local deployment and analysis[cite: 2].
+* `/application/controllers/`: Core business and routing logic.
+* `/application/models/`: Database abstraction and data validation layer.
+* `/core/`: The platform's engine, including database drivers and system loaders.
+* `/fifabet.sql`: Full relational database schema for local deployment and analysis.
 
 ---
 *Note: This repository is part of a professional portfolio showcasing full-stack development and architectural design skills.*
