@@ -4,15 +4,15 @@ This repository showcases a professional, scalable, and automated sports betting
 
 ## ⚙️ Core Architecture & Tech Stack
 * **Backend:** PHP (Custom MVC implementation for robust logic separation and scalability).
-* **Database:** MySQL - A complex relational schema designed to manage high-volume user data, bets, and financial ledgers[cite: 2].
-* **Frontend:** Dynamic and responsive interface powered by HTML5, CSS3, and jQuery[cite: 1].
-* **Automation:** Integrated **Cron Job** engine for real-time result synchronization and automated bet settlement[cite: 1].
+* **Database:** MySQL - A complex relational schema designed to manage high-volume user data, bets, and financial ledgers.
+* **Frontend:** Dynamic and responsive interface powered by HTML5, CSS3, and jQuery
+* **Automation:** Integrated **Cron Job** engine for real-time result synchronization and automated bet settlement.
 
 ## 💎 Key Engineering Highlights
-* **Automated Data Pipeline:** Built-in system to fetch and synchronize live sports data for various markets including Soccer, Basketball, and Hockey[cite: 1, 2].
-* **Transactional Security:** Engineered a robust financial ledger system to track every transaction (deposits/withdrawals) with high data integrity[cite: 2].
-* **Security Layer:** Includes secure user authentication, session management, and comprehensive IP/activity logging[cite: 2].
-* **Administrative Control:** A central management core to oversee system-wide operations, user balances, and live markets[cite: 1].
+* **Automated Data Pipeline:** Built-in system to fetch and synchronize live sports data for various markets including Soccer, Basketball, and Hockey.
+* **Transactional Security:** Engineered a robust financial ledger system to track every transaction (deposits/withdrawals) with high data integrity.
+* **Security Layer:** Includes secure user authentication, session management, and comprehensive IP/activity logging.
+* **Administrative Control:** A central management core to oversee system-wide operations, user balances, and live markets.
 
 ## 📂 Project Structure
 * `/application/controllers/`: Core business and routing logic.
