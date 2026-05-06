@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule !\.(js|ico|txt|gif|GIF|jpg|JPG|jpeg|JPEG|png|PNG|css|php|swf|flv|pdf|html|ttf|eot|woff|woff2|svg|htm|xml|mp3|txt)$ index.php
+
